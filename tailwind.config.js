@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "kachodam-blue": "#282d7d",
+        "kachodam-red": "#e43d26"
+      }
+    },
   },
   plugins: [],
 }
